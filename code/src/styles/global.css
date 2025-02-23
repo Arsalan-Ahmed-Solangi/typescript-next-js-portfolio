@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --font-nunito: "Nunito", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  cursor: url("/path/to/your/cursor-image.png") 16 16, auto;
+  background: var(--background-color);
+  font-family: var(--font-nunito);
+}

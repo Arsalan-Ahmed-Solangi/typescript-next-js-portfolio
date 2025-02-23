@@ -1,0 +1,76 @@
+/* Container holds the entire timeline */
+.timeline-container {
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* The vertical center line */
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #ccc;
+  transform: translateX(-50%);
+}
+
+/* Base styling for each timeline item */
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 15px 40px;
+  box-sizing: border-box;
+}
+
+/* Right side items (first, third, etc.) */
+.timeline-item.right {
+  left: 50%;
+  text-align: left;
+}
+
+/* Left side items (second, fourth, etc.) */
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+/* Content styling */
+.timeline-content {
+  background: #f9f9f9;
+  padding: 10px 15px;
+  border-radius: 4px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Timeline dot styling */
+.timeline-dot {
+  position: absolute;
+  top: 20px;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 4px solid #007bff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Position dot for right side items */
+.timeline-item.right .timeline-dot {
+  left: -8px; /* Adjust to align dot with the center line */
+}
+
+/* Position dot for left side items */
+.timeline-item.left .timeline-dot {
+  right: -8px; /* Adjust to align dot with the center line */
+}
+
+/* Date styling */
+.timeline-date {
+  display: block;
+  font-size: 0.85em;
+  color: #888;
+  margin-bottom: 5px;
+}
