@@ -8,7 +8,7 @@ Welcome to my **Next.js TypeScript** application! This project showcases my port
 
 ## 📌 Features
 
-- ⚡ Built with **Next.js 14** and **TypeScript**
+- ⚡ Built with **Next.js 15** and **TypeScript**
 - 🎨 Modern and responsive UI
 - 🏎️ Optimized performance with SSR & SSG
 - 📂 Dynamic content loading
