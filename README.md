@@ -79,6 +79,6 @@ This project is **open-source** and available under the **MIT License**.
 
 ---
 
-👨‍💻 **Developed by [Arsalan Ahmed](https://arsalanahmedsolangi.vercel.app/)** | 💼 **[LinkedIn](https://www.linkedin.com/in/arsalan-ahmed-6b5536172/)** | 🐦 \*\*
+👨‍💻 **Developed by [Arsalan Ahmed](https://arsalanahmedsolangi.vercel.app/)** | 💼 **[LinkedIn](https://www.linkedin.com/in/arsalan-ahmed-6b5536172/)**
 
 💡 _Let's build something amazing together!_ 🚀
